@@ -1,0 +1,44 @@
+.heading
+{
+   font-size: 45px;
+   width: 100%;
+   margin: 0px;
+   font-family: 'Moo Lah Lah', cursive;
+   word-spacing: 2px;
+   color: black;
+
+}
+
+.note
+{
+   font-size: 20px;
+   color: black;
+   word-spacing: 6px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+body
+{
+    background-size: cover;
+}
+
+canvas
+{
+    border: 5px ridge purple;
+    background-color: rgba(126, 0, 126, 0.411);
+    margin-top: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 10px 10px 38px palevioletred;}
+    to{box-shadow: 10px 10px 38px purple;}
+}
+
+.song
+{
+   font-size: medium;
+   margin-top: 10px;
+}
